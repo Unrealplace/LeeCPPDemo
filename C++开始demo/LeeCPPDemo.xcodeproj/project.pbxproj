@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FAB650A01EB2C6B0001430FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB6509F1EB2C6B0001430FB /* main.cpp */; };
+		FAB650D21EB2F1B1001430FB /* LeeDemo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB650D01EB2F1B1001430FB /* LeeDemo1.cpp */; };
+		FACBF05E1EB97BE8009E3FA4 /* People.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACBF05D1EB97BE8009E3FA4 /* People.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		FAB650951EB2C691001430FB /* LeeCPPDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeeCPPDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6509F1EB2C6B0001430FB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAB650D01EB2F1B1001430FB /* LeeDemo1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeeDemo1.cpp; sourceTree = "<group>"; };
+		FAB650D11EB2F1B1001430FB /* LeeDemo1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LeeDemo1.hpp; sourceTree = "<group>"; };
+		FACBF05D1EB97BE8009E3FA4 /* People.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = People.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				FAB6509F1EB2C6B0001430FB /* main.cpp */,
+				FAB650D01EB2F1B1001430FB /* LeeDemo1.cpp */,
+				FAB650D11EB2F1B1001430FB /* LeeDemo1.hpp */,
+				FACBF05D1EB97BE8009E3FA4 /* People.cpp */,
 			);
 			path = LeeCPPDemo;
 			sourceTree = "<group>";
@@ -120,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB650A01EB2C6B0001430FB /* main.cpp in Sources */,
+				FACBF05E1EB97BE8009E3FA4 /* People.cpp in Sources */,
+				FAB650D21EB2F1B1001430FB /* LeeDemo1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +258,7 @@
 				FAB6509E1EB2C691001430FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
